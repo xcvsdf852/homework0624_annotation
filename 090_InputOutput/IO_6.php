@@ -15,7 +15,11 @@ Web Services、
 PHP與jQuery、
 jQuery Mobile整合運用
 fileContent;
+//位置必須在第一格
 
-$fileSize = file_put_contents("data2.txt", $content);
+$fileSize = file_put_contents("data2.txt", $content); //將檔案 put 出去
 echo "File size: $fileSize <br />-- Done --";
+
+
+//file_put_contents与依次调用 fopen()，fwrite() 以及 fclose() 功能一样。
 ?>

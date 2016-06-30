@@ -1,0 +1,44 @@
+[23-Jun-2016 03:29:48 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cyp05/test/index.php on line 5
+[23-Jun-2016 03:29:51 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cyp05/test/index.php on line 5
+[23-Jun-2016 03:30:30 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cyp05/test/index.php on line 5
+[23-Jun-2016 03:32:43 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cyp05/test/index.php on line 6
+[24-Jun-2016 01:24:08 UTC] PHP Warning:  constant(): Couldn't find constant greeting123 in /home/ubuntu/workspace/cyp05/010_Syntax/testDefine.php on line 18
+[24-Jun-2016 01:24:08 UTC] PHP Stack trace:
+[24-Jun-2016 01:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cyp05/010_Syntax/testDefine.php:0
+[24-Jun-2016 01:24:08 UTC] PHP   2. constant() /home/ubuntu/workspace/cyp05/010_Syntax/testDefine.php:18
+[24-Jun-2016 01:24:48 UTC] PHP Warning:  constant(): Couldn't find constant greeting123 in /home/ubuntu/workspace/cyp05/010_Syntax/testDefine.php on line 18
+[24-Jun-2016 01:24:48 UTC] PHP Stack trace:
+[24-Jun-2016 01:24:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cyp05/010_Syntax/testDefine.php:0
+[24-Jun-2016 01:24:48 UTC] PHP   2. constant() /home/ubuntu/workspace/cyp05/010_Syntax/testDefine.php:18
+[24-Jun-2016 01:32:01 UTC] PHP Warning:  constant(): Couldn't find constant greeting123 in /home/ubuntu/workspace/cyp05/010_Syntax/testDefine.php on line 18
+[24-Jun-2016 01:32:01 UTC] PHP Stack trace:
+[24-Jun-2016 01:32:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cyp05/010_Syntax/testInclude.php:0
+[24-Jun-2016 01:32:01 UTC] PHP   2. include() /home/ubuntu/workspace/cyp05/010_Syntax/testInclude.php:2
+[24-Jun-2016 01:32:01 UTC] PHP   3. constant() /home/ubuntu/workspace/cyp05/010_Syntax/testDefine.php:18
+[24-Jun-2016 01:53:36 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cyp05/020_Type_Variables/test_Date.php on line 11
+[24-Jun-2016 01:53:36 UTC] PHP Stack trace:
+[24-Jun-2016 01:53:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cyp05/020_Type_Variables/test_Date.php:0
+[24-Jun-2016 01:53:36 UTC] PHP   2. date() /home/ubuntu/workspace/cyp05/020_Type_Variables/test_Date.php:11
+[24-Jun-2016 02:02:20 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cyp05/020_Type_Variables/test_Date.php on line 23
+[24-Jun-2016 02:02:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cyp05/020_Type_Variables/test_Date.php on line 23
+[24-Jun-2016 04:00:32 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/cyp05/test/loan.php on line 40
+[24-Jun-2016 04:00:32 UTC] PHP Stack trace:
+[24-Jun-2016 04:00:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cyp05/test/loan.php:0
+[24-Jun-2016 06:44:49 UTC] PHP Parse error:  syntax error, unexpected '，' (T_STRING) in /home/ubuntu/workspace/cyp05/test/function_test.php on line 11
+[24-Jun-2016 06:45:19 UTC] PHP Parse error:  syntax error, unexpected '，' (T_STRING) in /home/ubuntu/workspace/cyp05/test/function_test.php on line 11
+[24-Jun-2016 06:46:53 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/cyp05/test/function_test.php on line 12
+[24-Jun-2016 06:47:10 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133955537 bytes) in /home/ubuntu/workspace/cyp05/test/function_test.php on line 6
+[24-Jun-2016 06:47:10 UTC] PHP Stack trace:
+[24-Jun-2016 06:47:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cyp05/test/function_test.php:0
+[24-Jun-2016 06:47:10 UTC] PHP   2. showStar() /home/ubuntu/workspace/cyp05/test/function_test.php:12
+[24-Jun-2016 06:47:43 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133955537 bytes) in /home/ubuntu/workspace/cyp05/test/function_test.php on line 6
+[24-Jun-2016 06:47:43 UTC] PHP Stack trace:
+[24-Jun-2016 06:47:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cyp05/test/function_test.php:0
+[24-Jun-2016 06:47:43 UTC] PHP   2. showStar() /home/ubuntu/workspace/cyp05/test/function_test.php:12
+[27-Jun-2016 01:26:55 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133955537 bytes) in /home/ubuntu/workspace/cyp05/060_UserDefinedFunctions/ShowStarVer2.php on line 8
+[27-Jun-2016 01:26:55 UTC] PHP Stack trace:
+[27-Jun-2016 01:26:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cyp05/060_UserDefinedFunctions/ShowStarVer2.php:0
+[27-Jun-2016 01:26:55 UTC] PHP   2. ShowStar() /home/ubuntu/workspace/cyp05/060_UserDefinedFunctions/ShowStarVer2.php:34
+[27-Jun-2016 05:00:58 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cyp05/test/Lotto.php on line 19
+[27-Jun-2016 05:00:58 UTC] PHP Stack trace:
+[27-Jun-2016 05:00:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cyp05/test/Lotto.php:0

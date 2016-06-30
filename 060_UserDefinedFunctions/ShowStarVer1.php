@@ -4,5 +4,5 @@ function ShowStar()
 	echo "*****";
 }
 
-ShowStar();
+ShowStar();//呼叫涵式 顯示*
 ?>

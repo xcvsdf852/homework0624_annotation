@@ -4,10 +4,10 @@ function DrawLine() {
 	echo "<hr>";
 }
 
-register_tick_function("DrawLine");
+register_tick_function("DrawLine"); //指定 declare 要參照的function
 
-declare (ticks = 3) {
-	echo "1<br>";
+declare (ticks = 3) { //ticks指定在第幾次時執行function
+	echo "1<br>";	//因此執行三次語句後，會執行一次function
 	echo "2<br>";
 	echo "3<br>";
 	echo "4<br>";
